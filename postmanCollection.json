@@ -1,0 +1,111 @@
+{
+	"info": {
+		"_postman_id": "9f0d9692-508f-4a3a-a171-3f32b2cd9a01",
+		"name": "Test collection",
+		"description": "Test description",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Test POST request",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXUyJ9.eyJhdWQiOjEyLCJpc3MiOiJodHRwOi8vY3JtLWFwaS5sb2NhbDo1MDAxLy9hcGkvdjEvY3JtL3NpZ24vY2FsbGJhY2siLCJpYXQiOiIxNTk5NDY5MTg1IiwiZXhwIjoiMTYwMDA3Mzk4NSIsIm5iZiI6IjE1OTk0NjkxODUiLCJqdGkiOiJmMTNjZGQwNWE3MDQwZGFmZjhhMWNhYjA3ZGQ4MGFkYSIsInJ0aSI6IjQwNTMyYjY0ZWJjNzE3NjlhNzA2NTQyNmYxNWEyMTgyIn0.dPYUd4DU7UBOqruGnmEXbqFsGjjhrAqUgYRkpRi8lLs",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"widget\":\"Dashboard\\\\TopAdvertisers\",\"settings\":{\"state_id\":13}}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://tracking-test.500test500.com/backend/api/v1/crm/widget/data",
+					"protocol": "https",
+					"host": [
+						"tracking-test",
+						"500test500",
+						"com"
+					],
+					"path": [
+						"backend",
+						"api",
+						"v1",
+						"crm",
+						"widget",
+						"data"
+					],
+					"query": [
+						{
+							"key": "",
+							"value": "",
+							"disabled": true
+						},
+						{
+							"key": "",
+							"value": "",
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Test POST request 2",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXUyJ9.eyJhdWQiOjEyLCJpc3MiOiJodHRwOi8vY3JtLWFwaS5sb2NhbDo1MDAxLy9hcGkvdjEvY3JtL3NpZ24vY2FsbGJhY2siLCJpYXQiOiIxNTk5NDY5MTg1IiwiZXhwIjoiMTYwMDA3Mzk4NSIsIm5iZiI6IjE1OTk0NjkxODUiLCJqdGkiOiJmMTNjZGQwNWE3MDQwZGFmZjhhMWNhYjA3ZGQ4MGFkYSIsInJ0aSI6IjQwNTMyYjY0ZWJjNzE3NjlhNzA2NTQyNmYxNWEyMTgyIn0.dPYUd4DU7UBOqruGnmEXbqFsGjjhrAqUgYRkpRi8lLs",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"widget\":\"Dashboard\\\\LastLeads\",\"settings\":{}}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://tracking-test.500test500.com/backend/api/v1/crm/widget/data",
+					"protocol": "https",
+					"host": [
+						"tracking-test",
+						"500test500",
+						"com"
+					],
+					"path": [
+						"backend",
+						"api",
+						"v1",
+						"crm",
+						"widget",
+						"data"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}
